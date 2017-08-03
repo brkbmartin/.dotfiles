@@ -1,0 +1,54 @@
+[alias]
+
+  # ADD
+  a = add
+  aa = add -A
+  ap = add -p
+
+  # AMEND
+  amend = commit --amend -C HEAD
+
+  # COMMIT
+  cm = commit
+  cmm = commit -m
+
+  # CHECKOUT
+  co = checkout
+
+  # DIFF
+  df = diff
+  dh = diff HEAD
+
+  # LOG
+  ls = log --pretty=oneline -n 20 --graph --abbrev-commit
+
+  # PUSH & PULL
+  plom = pull origin master
+  pom = push origin master
+  
+  # REBASE & RESET
+  rb = rebase
+  rh = reset HEAD
+
+  # STATUS
+  st = status
+
+  # ASSUME-UNCHANGED
+  ignore = update-index --assume-unchanged
+  unignore = update-index --no-assume-unchanged
+  ignored = !git ls-files -v | grep '^h'
+
+[core]
+  
+  # CUSTOM FILES
+  excludesfile = ~/.gitignore
+
+[color]
+
+  # COLORS
+  ui = auto
+
+[help]
+
+  # CORRECTION
+  autocorrect = 1

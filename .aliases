@@ -1,0 +1,45 @@
+# NAVIGATION
+alias ..="cd .."
+alias ....="cd ../.."
+alias ......="cd ../../.."
+alias ........="cd ../../../.."
+
+# LISTING
+alias ls="ls -l"
+alias ll="ls -lhFA"
+alias lsl="ls -lhFA | less"
+alias lsr="ls -lhFAR | less"
+
+# WIN COMMANDS
+alias dir="ls"
+alias cls="clear"
+
+# MKDIR
+alias mkdir="mkdir -p"
+
+# WGET
+alias wget="wget -c"
+
+# PATHS
+alias h="cd /home/Nopoy"
+alias d="cd /cygdrive/c/Users/Nopoy/Desktop"
+alias dc="cd /cygdrive/c/Users/Nopoy/Documents"
+alias dl="cd /cygdrive/c/Users/Nopoy/Downloads"
+alias p="cd /cygdrive/c/Users/Nopoy/Projects"
+
+# DOTFILES
+alias al="vim /home/Nopoy/.aliases"
+alias bp="vim /home/Nopoy/.bash_profile"
+alias bpr="vim /home/Nopoy/.bash_prompt"
+alias brc="vim /home/Nopoy/.bashrc"
+alias ex="vim /home/Nopoy/.exports"
+alias gc="vim /home/Nopoy/.gitconfig"
+alias gi="vim /home/Nopoy/.gitignore"
+alias irc="vim /home/Nopoy/.inputrc"
+alias mrc="vim /home/Nopoy/.minttyrc"
+alias tconf="vim /home/Nopoy/.tmux.conf"
+alias tline="vim /home/Nopoy/.tmuxline"
+alias vrc="vim /home/Nopoy/.vimrc"
+
+# GIT
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

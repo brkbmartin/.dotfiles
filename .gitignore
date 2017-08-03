@@ -1,0 +1,14 @@
+### FILES
+
+*~
+*.lock
+*.swp
+*.out
+*.patch
+*.log
+*.sql
+*.sqlite
+
+### FOLDERS
+
+.cache/
